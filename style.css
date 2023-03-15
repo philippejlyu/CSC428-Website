@@ -40,3 +40,43 @@ button {
 button:hover {
     background: #aacfdb;
 }
+
+/* Navigation Bar */
+.navigation li {
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px 2px;
+	text-transform: uppercase;
+	display: inline;
+	float: left;
+
+}
+
+.navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.navigation a {
+	display: block;
+	text-align: center;
+	color: black;
+    padding: 14px 16px;
+}
+
+.navigation {
+	height: 60px;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+}
+.navigation h1 {
+  padding: 0px 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.sectionTitle {
+    margin-top: 29px;
+}
